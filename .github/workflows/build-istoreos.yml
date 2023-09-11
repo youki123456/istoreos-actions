@@ -34,9 +34,10 @@ jobs:
           # - istoreos-21.02
           - istoreos-22.03
         ARCHITECTURE:
-          - rk33xx
-          - rk35xx
-          - x86
+          # - rk33xx
+          # - rk35xx
+          # - x86
+          - MT7621
         os:
           - ubuntu-22.04
 
